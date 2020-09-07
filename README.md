@@ -14,3 +14,17 @@ Siga as instruções abaixo.
 - Técnicas de framework
 - Objetividade
 - Prazo de entrega
+
+##criação do container Docker
+
+- #sudo docker run -p 8080:80 --name teste-dev -it ubuntu
+
+- comando -it para o modo interativo com o bash
+- comando -d para rodar em segundo plano
+
+##executando
+- #sudo docker exec -it teste-dev bash
+
+##copiando arquivos do PC host para o container 
+- # sudo docker cp teste-dev-backend teste-dev:/home
+
